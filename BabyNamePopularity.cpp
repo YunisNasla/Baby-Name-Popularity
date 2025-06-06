@@ -18,7 +18,7 @@ int main(){
 
     ifstream inputStream;
 
-    inputStream.open("babyNames2022.txt");
+    inputStream.open("BabyNames2022.txt");
     if (inputStream.fail()){
         cout << "Failed to open file." << endl;
         return 1;
